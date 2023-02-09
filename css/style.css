@@ -140,9 +140,13 @@
 .description {
     margin-bottom: 8px;
 }
+.description-final {
+    margin-bottom: 15px;
+}
 
 #skills-section-title {
-    border-top: 2px solid var(--about-text-color);
+    border-top: 1px solid var(--about-text-color);
+    padding-top: 10px;
     font-size: 32px;
 }
 
@@ -169,3 +173,26 @@
     font-size:37px;
     margin-right: 10px;
 }
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .project-box {
+    width: 50%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .articles-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .article-box {
+    width: 50%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
