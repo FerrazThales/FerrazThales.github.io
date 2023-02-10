@@ -190,3 +190,17 @@
     padding: 1rem;
   }
   
+  .botoes-website {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .botoes-website button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  
