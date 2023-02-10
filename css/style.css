@@ -185,14 +185,21 @@
     box-sizing: border-box;
   }
   
-  .articles-container {
+  .article-section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
   }
   
-  .article-box {
-    width: 50%;
-    padding: 1rem;
-    box-sizing: border-box;
+  .article {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .article img {
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px;
   }
   
