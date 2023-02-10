@@ -82,7 +82,7 @@
 }
 
 #email-container{
-    display: flex;
+    display:inline-flex;
     justify-content: center;
     padding-bottom: 10px;
 }
@@ -97,6 +97,7 @@
     color: var(--about-bg-color);
     text-decoration: none;
     max-width: 225px;
+    font-size: 15px;
 }
 
 #email-container ion-icon {
