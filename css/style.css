@@ -175,12 +175,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 5px;
+    padding-top: 1px;
   }
   
   .article {
     width: 30%;
-    margin-bottom: 20px;
+    
   }
   
   .article img {
