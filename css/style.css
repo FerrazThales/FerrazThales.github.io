@@ -201,7 +201,7 @@
   }
   
   .jobs-list {
-    display: flex;
+    display:flex;
     transition: transform 0.6s;
     transform: translateX(-25%);
   }
