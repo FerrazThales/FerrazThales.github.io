@@ -180,6 +180,7 @@ body {
   
   .jobs-container {
     overflow: hidden;
+    text-align: center;
   }
   
   .jobs-list {
