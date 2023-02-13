@@ -77,16 +77,16 @@ body {
     justify-content: center;
     list-style: none;
 }
-
-#social-container li{
-    flex: 1 1 0;
-    max-width: 45px;
-    padding-bottom: 8px;
+#social-container {
+  display: flex;
+  justify-content: center;
+  list-style: none;
 }
 
 #social-container li a{
     color: var(--about-bg-color);
     font-size: 30px;
+    margin-right: 5px;
 }
 
 #email-container{
