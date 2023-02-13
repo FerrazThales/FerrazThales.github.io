@@ -206,9 +206,9 @@ body {
   }
   
   .job-title {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   
   .job-company {
@@ -223,7 +223,7 @@ body {
     }
     
     .apply-button {
-    background-color: #0077b5;
+    background-color: #8f08f7;
     border: none;
     border-radius: 50px;
     color: #fff;
@@ -252,7 +252,6 @@ body {
     background-color: #006097;
     }
     
-
     .active-dot {
     background-color: #0077b5;
     }
