@@ -117,7 +117,7 @@ body {
 
 #linguagens_programacao{
     margin-top: 15px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     padding-left: 10px;
     text-align: left;
@@ -126,7 +126,7 @@ body {
 }
 
 #bibliotecas{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     padding-left: 10px;
     text-align: left;
@@ -162,8 +162,8 @@ body {
 }
 
 .skills-box img {
-  width:38px;
-  height:38px;
+  width:35px;
+  height:35px;
   margin-right: 5px;
 }
 
