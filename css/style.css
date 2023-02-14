@@ -50,7 +50,7 @@ body {
     flex: 1 1 77%;
     min-height: 100%;
     background-color: var(--about-bg-color);
-    padding: 50px;
+    padding: 45px;
     color: var(--about-text-color);
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
@@ -92,7 +92,8 @@ body {
 #email-container{
     display:inline-flex;
     justify-content: center;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 #email-container ion-icon, 
@@ -157,6 +158,8 @@ body {
 
 #skills-container {
     display: flex;
+    margin-left: 20px;
+    text-align: left;
     flex-wrap: wrap;
     margin-top: 25px;
 }
