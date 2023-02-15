@@ -138,8 +138,8 @@ body {
 
 /* about container */
 #name {
-    font-size: 32px;
-    margin-bottom: 15px;
+    font-size: 28px;
+    margin-bottom: 5px;
 }
 
 #title {
@@ -148,7 +148,7 @@ body {
 }
 
 .description {
-    margin-bottom: 8px;
+    margin-bottom:5px;
 }
 
 #skills-section-title {
