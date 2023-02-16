@@ -88,34 +88,14 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
     <!-- JavaScript-->
-<script>
-let jobsContainer = document.querySelector('.jobs-container');
-let jobsList = document.querySelector('.jobs-list');
-let prevButton = document.querySelector('.prev');
-let nextButton = document.querySelector('.next');
-let currentJob = 0;
-let jobsCount = document.querySelectorAll('.job').length;
-let jobsWidth = jobsContainer.offsetWidth;
-
-jobsList.style.transform = 'translateX(' + (-jobsWidth * currentJob) + 'px)';
-
-nextButton.addEventListener('click', function() {
-  currentJob++;
-  if (currentJob >= jobsCount - 1) {
-    currentJob = jobsCount - 1;
-  }
-  jobsList.style.transform = 'translateX(' + (-jobsWidth * currentJob) + 'px)';
-});
-
-prevButton.addEventListener('click', function() {
-  currentJob--;
-  if (currentJob < 0) {
-    currentJob = 0;
-  }
-  jobsList.style.transform = 'translateX(' + (-jobsWidth * currentJob) + 'px)';
-});
-
-</script>
-    
+    <script>
+    let jobsContainer = document.querySelector('.jobs-container');
+    let jobsList = document.querySelector('.jobs-list');
+    let currentJob = 0;
+    let jobsCount = document.querySelectorAll('.job').length;
+    let jobsWidth = jobsContainer.offsetWidth;
+    jobsList.style.transform = 'translateX(' + (-jobsWidth * currentJob) + 'px)';
+    </script>
+        
 </body>
 </html>
