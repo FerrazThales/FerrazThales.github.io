@@ -177,36 +177,36 @@ body {
 }
 
 /* Parte dos artigos */
-  .recommended-jobs {
-    width: 100%;
-    text-align: center;
-  }
-  
   .jobs-container {
     overflow: hidden;
     text-align: center;
   }
   
   .jobs-list {
-    display:flex;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
     transition: transform 0.6s;
     transform: translateX(-25%);
   }
   
   .job {
-    width: calc(25% - 5px);
+    width: 94%;
     background-color: #f2f2f2;
     color: #082142;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     margin-right: 20px;
     padding: 20px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
   }
   
   .job-info {
-    display: inline-block;
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
     text-align: left;
   }
 
