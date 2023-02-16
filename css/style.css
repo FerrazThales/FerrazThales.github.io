@@ -194,7 +194,6 @@ body {
     background-color: #f2f2f2;
     color: #082142;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     margin-right: 20px;
     padding: 20px;
     display: flex;
@@ -226,6 +225,7 @@ body {
     .job-location {
     font-size: 14px;
     color: #888;
+    margin: 0;
     }
     
     .apply-button {
