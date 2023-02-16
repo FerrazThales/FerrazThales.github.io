@@ -1,2 +1,2 @@
 # FerrazThales.github.io
-Portfólio Thales Ferraz
+Repositório destinado para fazer o commit do site: https://ferrazthales.github.io/
